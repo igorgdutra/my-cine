@@ -1,0 +1,41 @@
+package model;
+
+public class Usuario {
+
+	private final String nome;
+	private final int idade;
+	private final PerfilCinefilo perfil;
+	private boolean notificacoesAtivas;
+
+	public Usuario(String nome, int idade, PerfilCinefilo perfil) {
+		this.nome = nome;
+		this.idade = idade;
+		this.perfil = perfil;
+		this.notificacoesAtivas = true;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public PerfilCinefilo getPerfil() {
+		return perfil;
+	}
+
+	public boolean isNotificacoesAtivas() {
+		return notificacoesAtivas;
+	}
+
+	public void setNotificacoesAtivas(boolean notificacoesAtivas) {
+		this.notificacoesAtivas = notificacoesAtivas;
+	}
+
+	@Override
+	public String toString() {
+		return "Usuario{nome='" + nome + "', idade=" + idade + "}";
+	}
+}

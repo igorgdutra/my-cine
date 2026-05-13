@@ -17,7 +17,7 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("=================================");
-		System.out.println("         CINE MATCH");
+		System.out.println("         MY CINE");
 		System.out.println(" Sistema Inteligente de Filmes");
 		System.out.println("=================================\n");
 
